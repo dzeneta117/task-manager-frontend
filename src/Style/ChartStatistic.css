@@ -1,0 +1,96 @@
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 280px; /* Razmak sa leve strane */
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 1000px;
+}
+
+.chart-buttons {
+    margin-bottom: 40px;
+     /* Razmak između dugmadi i grafikona */
+    margin-top: 40px;
+    z-index: 10; /* Osiguraj da su dugmad iznad drugih elemenata */
+}
+
+
+.chart-content-wrapper {
+    position: relative;
+    height: 40vh;
+    width: 40vw;
+    margin-left: 20px; /* Podesi marginu za pomeranje grafikona */
+}
+.chart-content {
+    display: flex;
+    justify-content: center; /* Poravnaj grafikon centrirano */
+    align-items: center; /* Centriraj vertikalno */
+    margin-top: 20px; /* Razmak iznad grafikona */
+    width: 100%;
+    position: relative;
+    height: 40vh;
+    width: 40vw;
+    margin-left: 20px; /* Podesi širinu da zauzme ceo prostor */
+}
+
+
+.status-legend {
+    display: flex;
+    flex-direction: row; /* Stavke legende u jednom redu */
+    flex-wrap: wrap; /* Prelomi u sledeći red ako nema dovoljno prostora */
+    gap: 80px; /* Razmak između stavki */
+    margin-left: 20px; /* Razmak levo od grafikona */
+    margin-top: 70px; /* Razmak iznad */
+    padding: 10px;
+    height: auto; /* Automatska visina */
+    color: #333;
+    position: relative; /* Dodato za kontekst pozicioniranja */
+    z-index: 1; /* Uveri se da je legenda iznad drugih elemenata */
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    text-align: center; /* Centriraj tekst */
+}
+
+.legend-color {
+    display: inline-block;
+    width: 20px; /* Širina boje */
+    height: 20px; /* Visina boje */
+    margin-right: 10px; /* Razmak desno od boje */
+    border-radius: 3px; /* Zaobljeni uglovi boje */
+}
+
+.legend-item span {
+    color: #333; /* Tamna boja za tekst */
+    font-size: 16px; /* Veličina fonta za tekst */
+    font-weight: bold;
+   
+}
+
+
+.chart-buttons button {
+    background-color: #007bff; /* Plava pozadina */
+    color: white; /* Bela boja teksta */
+    border: none; /* Bez ivica */
+    font-size: 16px;
+    border-radius: 5px; /* Zaobljeni uglovi dugmadi */
+    padding: 10px 15px; /* Unutrašnji razmak */
+    margin: 0 20px; /* Razmak između dugmadi */
+    cursor: pointer; /* Promeni pokazivač na ruku */
+    transition: background-color 0.3s ease; /* Efekat prelaza za pozadinsku boju */
+}
+
+.chart-buttons button:hover {
+    background-color: #0056b3; /* Tamnija plava kada se pređe mišem */
+}
+
+.chart-container h3 {
+    margin-bottom: 20px; /* Razmak između naslova i dugmadi */
+    color: #333; /* Tamna boja naslova */
+    font-size: 24px; /* Veličina fonta za naslov */
+}

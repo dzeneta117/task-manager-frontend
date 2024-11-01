@@ -1,0 +1,47 @@
+.home-container {
+    margin-left:280px ; /* Ostavlja prostor za sidebar */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Providna pozadina za sadržaj */
+    font-family: "Bungee Hairline", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    min-height: 100vh; /* Proteže se preko visine ekrana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertikalno centriranje */
+    align-items: center; /* Horizontalno centriranje */
+    
+}
+
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5);  
+    z-index: -1;
+}
+.navbar-logo-link h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+   
+    text-align: center;
+    justify-content: center;
+    color: rgb(168, 21, 21); /* Boja slova */
+}
+/* .home-container h2{
+    margin-right: -500px;
+    margin-top: -80px;
+} */
+.navbar-logo-image{
+    width: 80px;
+    height:80px;
+
+
+    
+    
+}

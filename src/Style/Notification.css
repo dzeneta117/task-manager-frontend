@@ -1,0 +1,80 @@
+.notifications-container {
+    position: fixed;
+    right: 20px; /* Udaljenost od desne ivice ekrana */
+    top: 20px; /* Udaljenost od gornje ivice ekrana */
+    z-index: 2000; /* Osiguraj da bude iznad drugih elemenata */
+}
+
+
+.notification-icon {
+    background: none; /* Bez pozadine */
+    border: none; /* Bez granice */
+    cursor: pointer; /* Ruka pri hover-u */
+    font-size: 30px; /* Veličina zvonca */
+    position: relative;
+    margin-left: 1270px;
+    z-index: 1000; /* Osiguraj da bude iznad ostalih elemenata */
+}
+
+.dropdown-menu {
+    position: absolute; /* Apsolutna pozicija za dropdown */
+    right: 0; /* Poravnaj na desnu stranu */
+    top: 100%; /* Postavi ispod dugmeta */
+    background-color: white; /* Pozadina dropdown-a */
+    border: 1px solid #ccc; /* Granica */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Senka */
+    width: 300px; /* Širina dropdown-a */
+    z-index: 1000; /* Osiguraj da bude iznad ostalih elemenata */
+    border-radius: 5px; /* Zaobljeniji uglovi */
+}
+
+.dropdown-menu h4 {
+    margin: 10px; /* Razmak od vrha */
+    font-size: 18px; /* Veličina naslova */
+    color: #333; /* Boja naslova */
+}
+
+.dropdown-menu ul {
+    list-style-type: none; /* Ukloni tačkice ispred stavki */
+    padding: 0; /* Ukloni padding */
+    margin: 0; /* Ukloni margin */
+}
+
+.dropdown-menu li {
+    padding: 10px 15px; /* Razmak unutar stavki */
+    font-size: 14px;
+    border-bottom: 1px solid #eee; /* Granica između stavki */
+    color: black; /* Boja teksta */
+    transition: background-color 0.3s; /* Efekat prelaza */
+    cursor: pointer; /* Prikaz kursora pri hover-u */
+}
+
+.dropdown-menu li:hover {
+    background-color: #f5f5f5; /* Pozadina pri hover-u */
+}
+
+.dropdown-menu li.read {
+    color: #aaa; /* Boja za pročitana obaveštenja */
+}
+
+.task-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Osiguraj da je iznad drugih elemenata */
+}
+
+.task-details h2 {
+    margin-top: 0;
+}
+
+.task-details button {
+    margin-bottom: 20px;
+}

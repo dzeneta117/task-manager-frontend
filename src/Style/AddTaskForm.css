@@ -1,0 +1,64 @@
+.task-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-input textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #555;
+}
+.task-form h2{
+    color: #333;
+}
+.delete-button {
+    background-color:brown ; /* Promeni boju pozadine na plavu (ili neku drugu) */
+    color: white; /* Boja teksta */
+    border: none; /* Bez ivica */
+    padding: 10px 15px; /* Povećaj padding za veće dugme */
+    border-radius: 5px; /* Zaobljeni uglovi */
+    cursor: pointer; /* Kursor promenjen u ruku */
+    margin-top: 15px; /* Razmak od gornjeg dela */
+}
+
+.delete-button:hover {
+    background-color: #0056b3; /* Tamnija nijansa plave prilikom hovera */
+}

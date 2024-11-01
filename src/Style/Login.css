@@ -1,0 +1,81 @@
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    max-width: 600px; /* Možeš promeniti po potrebi */
+    margin: 230px auto;
+    position: relative; /* Dodato kako bi z-index imao efekta */
+    z-index: 10; /* Postavi z-index tako da je iznad drugih elemenata */
+}
+
+.login-form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    position: relative;
+    z-index: 10; /* Osigurava da je tekst iznad pozadine */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 10; /* Osigurava da su input polja iznad pozadine */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 10; /* Osigurava da su input polja iznad pozadine */
+}
+
+.login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    position: relative;
+    z-index: 10; /* Osigurava da je dugme iznad pozadine */
+}
+
+.login-button:hover {
+    background-color: #555;
+}
+
+.register-text {
+    margin-top: 15px; /* Razmak između forme i teksta */
+    font-size: 14px; /* Veličina fonta */
+    text-align: center; /* Centriraj tekst */
+    color: #333;
+    position: relative;
+    z-index: 10;
+}
+
+.register-link {
+    color: blue; /* Boja linka */
+    cursor: pointer; /* Kursor kao ruka na hover */
+    text-decoration: underline; /* Podvucite link */
+    position: relative;
+    z-index: 10;
+}
